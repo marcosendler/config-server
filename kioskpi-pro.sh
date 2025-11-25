@@ -41,16 +41,18 @@ echo "📝 Criando tela de loading..."
 cat > $LOADING_HTML <<EOF
 <html>
 <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Carregando...</title>
 <style>
 body {
-    background: #0f0f0f;
-    color: white;
+    background: #ffffff;
+    color: black;
     font-family: Arial, sans-serif;
     text-align: center;
     margin-top: 20%;
 }
 .loader {
-  border: 10px solid #444;
+  border: 10px solid #a3a3a3;
   border-top: 10px solid #00aaff;
   border-radius: 50%;
   width: 70px;
